@@ -1,5 +1,23 @@
-.navegador {
+h1 {
+    font-family: 'Righteous', cursive;
+    color: #ffe77b;
+    background-color: #c85b70;
+}
+nav {
+    background-color: #eba8b5;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+ul {
+    align-items: center;
+}
+li {
     list-style-type: none;
+    font-family: 'Righteous', cursive;
+    display: inline;
 }
 .fondo {
     width: auto;
