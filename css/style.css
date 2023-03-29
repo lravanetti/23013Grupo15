@@ -1,27 +1,46 @@
-h1 {
-    font-family: 'Righteous', cursive;
+.titulo {
+    font-family: 'Arvo', serif;
     color: #ffe77b;
+    font-size: 5rem;
     background-color: #c85b70;
+    display: flex;
+    justify-content: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 nav {
     background-color: #eba8b5;
+    display: flex;
+    justify-content: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     
 }
 a {
     text-decoration: none;
-    color: rgb(250, 250, 250);
+    color: #fafafa;
+    font-size: 1.5rem;
+    margin: 5px 50px 5px 50px;
 }
-ul {
+/* ul {
     align-items: center;
-}
+} */
 li {
     list-style-type: none;
     font-family: 'Righteous', cursive;
     display: inline;
 }
-.fondo {
-    width: auto;
-    height: auto;
-    max-width: 800px;
-    min-width: 500px;
+.inicio {
+    display: flex;
+    justify-content: space-evenly;
+}
+#fondo {
+    width: 400px;
+    width: 400px;
+    border-radius: 20px;
 }
